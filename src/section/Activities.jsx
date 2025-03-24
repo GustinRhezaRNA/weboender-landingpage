@@ -21,17 +21,17 @@ const Activities = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-10 w-full md::w-[80vw] mx-auto my-10 p-3 justify-center items-center">
         <ActivityCard
-          imgSrc="/assets/person1.png"
+          imgSrc="/assets/studyclub.jpg"
           name="Study Club"
           desc="Belajar bersama komunitas Weboender tentang fundamental pemrograman web"
         />
         <ActivityCard
-          imgSrc="/assets/person1.png"
+          imgSrc="/assets/upgrade.jpg"
           name="Upgrading Community Administrator"
           desc="Upgrading skills pengurus komunitas Weboender dalam pemrograman web lanjutan"
         />
         <ActivityCard
-          imgSrc="/assets/person1.png"
+          imgSrc="/assets/bootcamp.jpg"
           name="Bootcamp"
           desc="Belajar framework pemrograman web secara intensif dengan pendekatan project-based learning. Pengalaman langsung didampingi oleh mentor berpengalaman."
         />

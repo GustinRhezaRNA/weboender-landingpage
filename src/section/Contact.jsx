@@ -27,7 +27,7 @@ const Contact = () => {
             <span className="text-xl rotate-90">
               <FaPhone />
             </span>
-            <p className="ml-4 font-bold text-lg">+62 899-9776-1121</p>
+            <p className="ml-4 font-bold text-lg">+62 858-5674-1328</p>
           </div>
         </div>
       </div>

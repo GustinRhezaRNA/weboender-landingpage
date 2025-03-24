@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    scroll-behavior: smooth;
-    font-family: Poppins, sans-serif;
+* {
+  scroll-behavior: smooth;
+  font-family: Poppins, sans-serif;
+}
+
+.whiteShadow:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 6px 6px 0 0 #FC5951;
 }

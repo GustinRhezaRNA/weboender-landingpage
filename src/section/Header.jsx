@@ -1,3 +1,5 @@
+import Button from '../components/Button';
+
 const Header = () => {
   return (
     <header id="home">
@@ -14,9 +16,12 @@ const Header = () => {
           </p>
 
           <div className="flex gap-5 items-center justify-center pt-5 md:pt-10">
-            <button className="bg-[#0B7677] px-3 py-2 md:px-7 md:py-4 border-none rounded-md text-white font-bold text-md md:text-xl">Join Us !</button>
+            <Button
+              className="bg-[#0B7677] px-3 py-2 md:px-7 md:py-4 border-none rounded-md text-white font-bold text-md md:text-xl hover:bg-[#026c64] transition"
+              text=" Join Us !"
+            ></Button>
             <button
-              className="flex items-center gap-2"
+              className="flex items-center gap-2 transition-transform duration-300 hover:scale-110 hover:text-white"
               onClick={() => {
                 window.open('https://www.youtube.com/@WeboenderCommunity', '_blank');
               }}
@@ -26,12 +31,12 @@ const Header = () => {
                 alt=""
                 style={{ width: '30px', height: '30px' }}
                 loading="lazy"
-              />{' '}
-              <p className="text-md md:text-xl text-[#7DC9CA]">Watch The Teaser</p>
+                className="transition-transform duration-300 hover:scale-125"
+              />
+              <p className="text-md md:text-xl text-[#7DC9CA] transition-colors duration-300 hover:text-white">Watch The Teaser</p>
             </button>
           </div>
         </div>
-        <div className="h-1/2"></div>
       </div>
     </header>
   );
