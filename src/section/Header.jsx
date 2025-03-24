@@ -19,6 +19,10 @@ const Header = () => {
             <Button
               className="bg-[#0B7677] px-3 py-2 md:px-7 md:py-4 border-none rounded-md text-white font-bold text-md md:text-xl hover:bg-[#026c64] transition"
               text=" Join Us !"
+              func={() => {
+                window.open('https://bit.ly/opmemweboender24', '_blank');
+              }
+              }
             ></Button>
             <button
               className="flex items-center gap-2 transition-transform duration-300 hover:scale-110 hover:text-white"
