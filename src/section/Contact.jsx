@@ -9,10 +9,10 @@ const Contact = () => {
       <div className="w-full max-w-5xl bg-[#107A7B] bg-[url('/assets/bg-contact.png')] bg-contain bg-center bg-no-repeat w-full text-white p-8 rounded-3xl relative flex flex-col md:flex-row items-center md:items-start">
         {/* Bagian Kiri - Text */}
         <div className="flex-1">
-          <h3 className="text-sm uppercase">Contact Us</h3>
-          <h2 className="text-3xl font-bold mt-2">
+          <h2 className="text-sm uppercase">Contact Us</h2>
+          <h3 className="text-3xl font-bold mt-2">
             Do you need help? <br /> contact us
-          </h2>
+          </h3>
         </div>
 
         <div className="flex-1 mt-6 md:mt-0 space-y-4">
