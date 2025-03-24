@@ -16,14 +16,14 @@ const Contact = () => {
         </div>
 
         <div className="flex-1 mt-6 md:mt-0 space-y-4">
-          <div className="flex items-center max-w-[400px] bg-white text-[#163D2A] justify-between  rounded-full px-6 py-3 shadow-md">
-            <span className="text-xl ">
+          <div className="flex items-center w-full max-w-sm md:max-w-md bg-white text-[#163D2A] justify-between rounded-full px-4 md:px-6 py-2 md:py-3 shadow-md">
+            <span className="text-lg md:text-xl">
               <FaEnvelope />
             </span>
-            <p className="ml-4 font-bold text-lg">weboendercommunity@gmail.com</p>
+            <p className="ml-3 md:ml-4 font-bold text-sm md:text-lg text-center break-all">weboendercommunity@gmail.com</p>
           </div>
 
-          <div className="flex items-center  max-w-[400px] justify-between bg-white text-[#163D2A] rounded-full px-6 py-3 shadow-md">
+          <div className="flex items-center w-full max-w-sm md:max-w-md bg-white text-[#163D2A] justify-between rounded-full px-4 md:px-6 py-2 md:py-3 shadow-md">
             <span className="text-xl rotate-90">
               <FaPhone />
             </span>
