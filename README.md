@@ -1,4 +1,5 @@
 **Weboender Community Landing Page**
+
 adalah website yang dirancang untuk memperkenalkan komunitas Weboender UIN Malang kepada mahasiswa dan khalayak umum. Website ini menampilkan informasi tentang komunitas, jadwal kegiatan, serta ajakan untuk bergabung dengan Weboender. Fully Responsive, dengan score lighthouse baik(hijau) pada semua aspek.
 ![image](https://github.com/user-attachments/assets/fca30949-5e15-4f9f-83f4-9d33d635b9da)
 
